@@ -1,0 +1,28 @@
+{
+  "name": "fragments-ui",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Fragments UI testing web app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourname/fragments-ui.git"
+  },
+  "author": "Deep Patel <pateldeep0295@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aws-amplify": "^5.2.2"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10",
+    "punycode": "^1.4.1",
+    "querystring-es3": "^0.2.1"
+  }
+}
