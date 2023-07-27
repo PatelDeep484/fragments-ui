@@ -21,11 +21,24 @@
       <form id="fragmentForm" onsubmit="return false">
         <label for="textFragment"><h3>Enter some text:</h3></label><br />
         <input type="text" id="textFragment" name="textFragment" /><br /><br />
+        <label for="type">Select a fragment type:</label>
+        <select id="type">
+          <option value="text/plain">text/plain</option>
+          <option value="text/plain; charset=utf-8">
+            text/plain; charset=utf-8
+          </option>
+          <option value="text/markdown">text/markdown</option>
+          <option value="text/html">text/html</option>
+          <option value="application/json">application/json</option>
+        </select>
+
+        <br /><br />
         <input
           id="fragmentsubmit"
           type="submit"
           value="Click to create a new Fragment!"
         />
+        <button id="getFragments">Get Fragments</button>
       </form>
     </section>
   </body>
